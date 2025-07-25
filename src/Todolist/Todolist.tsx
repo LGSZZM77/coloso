@@ -7,8 +7,6 @@ interface Todo {
   isCompleted: boolean;
 }
 
-let global_id = 3;
-
 const Todolist = () => {
   const [inputValue, setinputValue] = useState("");
   const [todoList, setTodoList] = useState<Todo[]>([
